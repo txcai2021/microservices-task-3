@@ -1,5 +1,5 @@
 const uri = 'https://jsonplaceholder.typicode.com/users';
-let users = [];
+
 
 function getItems() {
     fetch(uri)
@@ -20,9 +20,7 @@ function getItems() {
 
 function _displayItems(data) {
    
-    tBody.innerHTML = '';
-
-    
+   
             <table class="table">
                 <thead>
                     <tr>
